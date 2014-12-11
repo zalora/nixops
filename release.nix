@@ -21,7 +21,7 @@ rec {
 
     officialRelease = true; # hack
 
-    buildInputs = [ pkgs.git pkgs.libxslt ];
+    buildInputs = [ pkgs.gitMinimal pkgs.libxslt ];
 
     postUnpack = ''
       # Clean up when building from a working tree.
