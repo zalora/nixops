@@ -1,7 +1,7 @@
 NixOps
 ====
 
-This has to be built using https://github.com/zalora/nixpkgs.
+This has to be built using Nixpkgs 15.09.
 
 NixOps (formerly known as Charon) is a tool for deploying NixOS
 machines in a network or cloud.
